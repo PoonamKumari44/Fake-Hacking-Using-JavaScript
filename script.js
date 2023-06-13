@@ -65,52 +65,6 @@ setTimeout(() => {
   console.remove();
 }, 6000);
 
-
-// setTimeout(() => {
-//   async function install(ele,text){
-//     let msg1=document.getElementById(ele)
-//     msg1.innerHTML=text
-//     let i=0
-//     while(i!==100){
-//       let ran=Math.floor(Math.random()*6)
-//       i=i+ran
-//       if(i>100){
-//         i=100;
-//       }
-//       await new Promise(r =>setTimeout(r,100));
-//       msg1.innerHTML=`${text} ${"/##$DONE##.........."} ${i}%`
-//     }
-//   }
-//   const hacker = async () => {
-//     let msg1 = document.getElementById("msg1")
-//     await new Promise(r => setTimeout(r, 100));
-
-//     await install("msg1",">>> Initializing Network [DATABASE] Injection ....")
-
-//     await install("msg2",">>> Connecting To IP ADDRESS:147.1546.4555.5555")
-//     // await install("msg3","Hackerman is here!")
-    
-//     await install("msg4",">>> SYSTEM ***username*** @.GET(INFO)")
-//     await install("msg5",">>> ****VULUNERABILITES FOUND****...")
-//     await install("msg6",">>> Hello " + username + "!")
-//     // await install("msg6",">>> Hello ! @user***")
-//     await install("msg7",">>> TRYING TO COMPUTE COMBINATIONS AMONG 4.5 Trillion PASSWOROD*#*#*#*#...")
-//     await install("msg8",">>> Password found!!")
-//     await install("msg9",">>> Connecting....")
-//     // await install("msg10",">>> .....")
-//     // await install("msg11",">>> Connected!")
-//     await install("msg12",">>> Sorry " + username + " but your system is hacked ")
-//     // await install("msg12",">>> Sorry but your system is hacked ")   
-//     await install("msg13",">>>and 👁 YOU ARE UNDER-SURVILLIENCE OF THE POONAM_KUMARI HACKER 👁! ")
-//     // await install("msg11",">>> Connected 😈")
-    
-//     await install("msg14",">>> Now try to login! If you can ") 
-//     // await install("msg15","Got scared 😜<br>Don't be; it was a prank 🤣")
-//     await install("msg15","Got scared......! <br>Don't be; it was a prank :-)")
-
-//   }
-//   hacker()
-// }, 6000);
 async function Hackerman() {
   let p1 = new Promise(() => {
     setTimeout(() => {
